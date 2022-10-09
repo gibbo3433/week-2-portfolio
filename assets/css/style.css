@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/*                */
+/* changes the whole document before other selectors*/
 body {
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ body {
   font-family: 'Courier New', 'Courier', 'monospace';
 }
 
-/*                */
+/* changes to the headers */
 header {
  display: flex;
  flex-wrap: wrap;
@@ -25,14 +25,14 @@ header {
  
 }
 
-/*                */
+/* modifying the paragraphs */
 p {
  color: rgb(214, 216, 231);
  font-size: 2em;
  font-style: oblique;
 }
 
-/*                */
+/* modifying the h1 header */
 h1 {
  font-size: 150%;
  text-decoration: overline;
@@ -40,14 +40,14 @@ h1 {
  flex-wrap: wrap;
 }
 
-/*                */
+/* modifying the h2 header */
 h2 {
  text-decoration: overline;
  color: rgb(214, 216, 231);
  font-size:3em;
 }
 
-/*                */
+/*modifying the h3 header*/
 h3 {
   text-decoration: overline;
   color: rgb(214, 216, 231);
@@ -55,7 +55,7 @@ h3 {
  }
 
 
-/*                */
+/* changes to nav bar list*/
 nav ul {
  display: flex;
  justify-content: space-evenly;
@@ -64,13 +64,13 @@ nav ul {
  min-width: 30em;
 }
 
-/*                */
+/* changes to nav bar anchjors */
 nav a {
  color: rgb(214, 216, 231);
  text-decoration:solid;
 }
 
-/*                */
+/* changes to the aside section - junior developer*/
 aside {
  width: 39%;
  float: right;
@@ -85,13 +85,13 @@ aside {
  justify-content: space-evenly;
 }
 
-/*                */
+/* image adaptation in the aside section */
 .aside-img {
   width: 74%;
   height: 80%;
 }
 
-/*                */
+/* Main section changes - manastack */
 .main-section {  
   display: flex;
   flex-wrap: wrap;
@@ -109,19 +109,19 @@ aside {
   
 }
 
-/*                */
+/* mana stack logo image  */
 .main-article-img1 {
-  width: 30%;
+  width: 60%;
   height: 30%;
 }
 
-/*                */
+/* mana stack homepage image  */
 .main-article-img2 {
-  width: 74%;
+  width: 80%;
   height: 60%;
 }
 
-/*                */
+/* scryfall and mtg on curve sectioins  */
 .second-section {
 display: flex;
 flex-wrap: wrap;
@@ -137,12 +137,12 @@ border-radius: 30px;
 padding: 1%;
 }
 
-/*                */
+/* pictures for scryfall and mtg on curve */
 .second-article-img {
-  width: 80%; 
+  width: 60%; 
 }
 
-/*                */
+/* footer styling at the bottom  */
 footer {
  display: flex;
  flex-wrap: wrap;
@@ -158,7 +158,7 @@ footer {
 }
 
 
-/*                */
+/* changes elements of the page when the screen of the user is different*/
 @media screen and (max-width: 768px) {
   body {
     flex-direction: column;
