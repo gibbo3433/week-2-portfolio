@@ -1,12 +1,16 @@
+* {
+  box-sizing: border-box;
+}
 
+/*                */
 body {
   display: flex;
   flex-direction: column;
   line-height: 1.3;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 200%;
+  font-family: 'Courier New', 'Courier', 'monospace';
 }
-  
+
+/*                */
 header {
  display: flex;
  flex-wrap: wrap;
@@ -17,29 +21,41 @@ header {
  color: rgb(214, 216, 231);
  border-radius: 30px;
  margin: .3em;
- font-size: 300%; 
+ font-size: 3.5em; 
  
 }
 
+/*                */
 p {
  color: rgb(214, 216, 231);
- font-size: 4em;
+ font-size: 2em;
  font-style: oblique;
 }
 
+/*                */
 h1 {
- font-size: 260%;
+ font-size: 150%;
  text-decoration: overline;
  display: flex;
  flex-wrap: wrap;
 }
 
+/*                */
 h2 {
  text-decoration: overline;
  color: rgb(214, 216, 231);
- font-size:5em;
+ font-size:3em;
 }
 
+/*                */
+h3 {
+  text-decoration: overline;
+  color: rgb(214, 216, 231);
+  font-size:1em;
+ }
+
+
+/*                */
 nav ul {
  display: flex;
  justify-content: space-evenly;
@@ -47,12 +63,14 @@ nav ul {
  font-weight: bolder;
  min-width: 30em;
 }
-  
+
+/*                */
 nav a {
  color: rgb(214, 216, 231);
  text-decoration:solid;
 }
 
+/*                */
 aside {
  width: 39%;
  float: right;
@@ -62,17 +80,18 @@ aside {
  border-radius: 30px;
  margin-left: 1em;
  padding: 1%;
- margin: .3em;
- 
+ margin: 0.3em;
  height: max-content;
  justify-content: space-evenly;
 }
 
+/*                */
 .aside-img {
-  width: 70%;
-  height: 70%;
+  width: 74%;
+  height: 80%;
 }
 
+/*                */
 .main-section {  
   display: flex;
   flex-wrap: wrap;
@@ -90,16 +109,19 @@ aside {
   
 }
 
+/*                */
 .main-article-img1 {
   width: 30%;
   height: 30%;
 }
 
+/*                */
 .main-article-img2 {
   width: 74%;
   height: 60%;
 }
 
+/*                */
 .second-section {
 display: flex;
 flex-wrap: wrap;
@@ -115,11 +137,30 @@ border-radius: 30px;
 padding: 1%;
 }
 
+/*                */
 .second-article-img {
   width: 80%; 
 }
 
+/*                */
+footer {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: space-evenly;
+ float: left;
+ padding: 1%;
+ background-color: #0c524c;
+ color: rgb(214, 216, 231);
+ border-radius: 30px;
+ margin: .3em;
+ font-size: 3.5em; 
+}
 
+
+/*                */
 @media screen and (max-width: 768px) {
-  body
+  body {
+    flex-direction: column;
+  }
 }
