@@ -16,8 +16,9 @@ header {
     align-items: center;
     padding: 1%;
     background-color: #0c524c;
-    color: rgb(174, 177, 211);
+    color: rgb(214, 216, 231);
     border-radius: 30px;
+    margin: 1em;
   }
 
 h1 {
@@ -36,9 +37,42 @@ nav ul {
   }
   
 nav a {
-    color: rgb(174, 177, 211);
+    color: rgb(214, 216, 231);
     text-decoration:solid;
     }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+
+
+aside {
+    flex: 1;
+    background-color: #0c524c;
+    padding: 40px;
+    text-align: right;
+    border-radius: 30px;
+    margin: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 section {
 
