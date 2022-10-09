@@ -1,3 +1,7 @@
+* {
+  
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -23,7 +27,6 @@ h1 {
     flex-wrap: wrap;
 }
 
-
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -36,6 +39,22 @@ nav a {
     color: rgb(174, 177, 211);
     text-decoration:solid;
     }
+
+section {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
