@@ -21,8 +21,7 @@ header {
  color: rgb(214, 216, 231);
  border-radius: 30px;
  margin: .3em;
- font-size: 3.5em; 
- 
+ font-size: 2.5em;  
 }
 
 /* modifying the paragraphs */
@@ -34,7 +33,7 @@ p {
 
 /* modifying the h1 header */
 h1 {
- font-size: 150%;
+ font-size: 240%;
  text-decoration: overline;
  display: flex;
  flex-wrap: wrap;
