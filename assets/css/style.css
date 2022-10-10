@@ -69,10 +69,13 @@ nav a {
  text-decoration:solid;
 }
 
+.top-section{
+  display: flex; 
+}
+
 /* changes to the aside section - junior developer*/
 aside {
  width: 39%;
- float: right;
  background-color: #0c524c;
  text-align: center;
  align-items: center;
@@ -101,7 +104,6 @@ aside {
   margin: .3em;
   width: 59%;  
   height:max-content;
-  float: left; 
   text-align: center;
   border-radius: 30px;
   padding: 1%;
@@ -159,7 +161,17 @@ footer {
 
 /* changes elements of the page when the screen of the user is different*/
 @media screen and (max-width: 768px) {
-  body {
+  body .top-section {
+    flex-direction: column;
+  }
+  .main-section {
+    width: 95%;
+
+  }
+  #about-me {
+    width: 95%;
+  }
+  nav ul {
     flex-direction: column;
   }
 }
