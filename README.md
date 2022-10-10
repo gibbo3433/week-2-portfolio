@@ -30,14 +30,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Issues identified and corrected
 
 Main issues I came across was making sure my containers included all the content I wanted.
-At times, the text, images and titles were out of shape so I had to reconfigure their CSS attributes
-Making sure to anchor within the document with the nav bar and also linking externally my applications 
+At times, the text, images and titles were out of shape, so I had to reconfigure their CSS attributes
+Making sure to anchor within the document with the nav bar and linking externally my applications 
 was tough but also worked in the end.
 
 ## Future work
 
-- Use of Javascript
-- root to change entire selectors if necessary
+- Use of JavaScript
+- Add pseudo classes where appropriate
 
 I have added into HTML alt: notes and into CSS also /*notes*/ to help any future edits by making it easier to see what the different elements are in the code and if any collaboration work will be done in the future. 
 
