@@ -61,6 +61,7 @@ nav ul {
  text-decoration: overline;
  font-weight: bolder;
  min-width: 30em;
+ font: message-box;
 }
 
 /* changes to nav bar anchjors */
